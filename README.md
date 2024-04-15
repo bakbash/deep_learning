@@ -3,6 +3,17 @@
 ## PURPOSE
 The purpose of the charity funding analysis for Alphabet Soup was to predict where the company would approve/make investments. Our goal was to use machine learning and neural networks to apply target/features on the dataset, create a binary classifier that was capable of predicting whether investors would be successful if funded by Alphabet Soup. 
 
+Feature Variables:
+APPLICATION_TYPE            
+AFFILIATION                  
+CLASSIFICATION              
+USE_CASE                    
+ORGANIZATION                 
+STATUS                       
+INCOME_AMT                   
+SPECIAL_CONSIDERATIONS       
+ASK_AMT                   
+
 Target variable:
 IS_SUCCESSFUL
 
