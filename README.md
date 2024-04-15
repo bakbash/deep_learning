@@ -9,9 +9,9 @@ IS_SUCCESSFUL
 Dropped Variables:
 EIN and Name
 
-Model: "sequential"
+The model achieved performance of 72.62%
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param  
 =================================================================
  dense (Dense)               (None, 80)                3520      
                                                                  
@@ -23,6 +23,27 @@ _________________________________________________________________
 Total params: 5981 (23.36 KB)
 Trainable params: 5981 (23.36 KB)
 Non-trainable params: 0 (0.00 Byte)
-_________________________________________________________________
 
+
+## Optimization:
+1.Added third layer 
+2.Addded neurons
+3.Adjusted epochs and learning rate
+
+The model achieved performance of 72.90%
+_________________________________________________________________
+Layer (type)                Output Shape              Param  
+=================================================================
+ dense_15 (Dense)            (None, 50)                2200      
+                                                                 
+ dense_16 (Dense)            (None, 25)                1275      
+                                                                 
+ dense_17 (Dense)            (None, 13)                338       
+                                                                 
+ dense_18 (Dense)            (None, 1)                 14        
+                                                                 
+=================================================================
+Total params: 3827 (14.95 KB)
+Trainable params: 3827 (14.95 KB)
+Non-trainable params: 0 (0.00 Byte)
 
