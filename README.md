@@ -10,19 +10,12 @@ Dropped Variables:
 EIN and Name
 
 The model achieved performance of 72.62%
-_________________________________________________________________
- Layer (type)                Output Shape              Param  
-=================================================================
- dense (Dense)               (None, 80)                3520      
+
+layers(2) :(80,30) , output layer :1
+
+       
                                                                  
- dense_1 (Dense)             (None, 30)                2430      
-                                                                 
- dense_2 (Dense)             (None, 1)                 31        
-                                                                 
-=================================================================
-Total params: 5981 (23.36 KB)
-Trainable params: 5981 (23.36 KB)
-Non-trainable params: 0 (0.00 Byte)
+
 
 
 ## Optimization:
@@ -31,19 +24,7 @@ Non-trainable params: 0 (0.00 Byte)
 3.Adjusted epochs and learning rate
 
 The model achieved performance of 72.90%
-_________________________________________________________________
-Layer (type)                Output Shape              Param  
-=================================================================
- dense_15 (Dense)            (None, 50)                2200      
-                                                                 
- dense_16 (Dense)            (None, 25)                1275      
-                                                                 
- dense_17 (Dense)            (None, 13)                338       
-                                                                 
- dense_18 (Dense)            (None, 1)                 14        
-                                                                 
-=================================================================
-Total params: 3827 (14.95 KB)
-Trainable params: 3827 (14.95 KB)
-Non-trainable params: 0 (0.00 Byte)
+
+layers(3) :(50,25,13) , output layer :1
+
 
