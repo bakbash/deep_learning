@@ -1,41 +1,51 @@
 # deep_learning
 
-## PURPOSE
-The purpose of the charity funding analysis for Alphabet Soup was to predict where the company would approve/make investments. Our goal was to use machine learning and neural networks to apply target/features on the dataset, create a binary classifier that was capable of predicting whether investors would be successful if funded by Alphabet Soup. 
+## Overview
 
-Feature Variables:
-APPLICATION_TYPE            
-AFFILIATION                  
-CLASSIFICATION              
-USE_CASE                    
-ORGANIZATION                 
-STATUS                       
-INCOME_AMT                   
-SPECIAL_CONSIDERATIONS       
-ASK_AMT                   
+The objective of this project is to assist Alphabet Soup—a philanthropic organization—in determining which funding applications from potential investors will likely result in successful ventures. By using machine learning and neural networks, this analysis aims to create an effective binary classifier to predict investment outcomes based on historical data.
 
-Target variable:
-IS_SUCCESSFUL
+## Features and Target Variable
 
-Dropped Variables:
-EIN and Name
+# Feature Variables
 
-The model achieved performance of 72.62%
+* APPLICATION_TYPE: Type of application
+* AFFILIATION: Affiliation with other entities
+* CLASSIFICATION: Classification code of the organization
+* USE_CASE: Use case for the funds
+* ORGANIZATION: Organizational type
+* STATUS: Active status
+* INCOME_AMT: Income classification
+* SPECIAL_CONSIDERATIONS: Any special considerations
+* ASK_AMT: Amount asked by the applicant
 
-layers(2) :(80,30) , output layer :1
+## Target Variable
+IS_SUCCESSFUL: Indicates if the funding was a success (1 = successful, 0 = not successful)
 
-       
-                                                                 
+## Data Preprocessing
 
+Variables such as EIN (Employer Identification Number) and Name were excluded from the analysis to focus on factors that directly influence funding outcomes.
 
+## Model Architecture
 
-## Optimization:
-1.Added third layer 
-2.Addded neurons
-3.Adjusted epochs and learning rate
+# Initial Model
 
-The model achieved performance of 72.90%
+* Layers: 2 (80 neurons in the first layer and 30 in the second layer)
+* Output Layer: 1 neuron (binary output)
+* Achieved Performance: 72.62% accuracy
 
-layers(3) :(50,25,13) , output layer :1
+## Technologies Used
+
+* Python
+* TensorFlow/Keras
+* Pandas
+* Scikit-Learn
+
+## Conclusion
+
+The optimized neural network model demonstrates a marginal improvement in accuracy. Further experimentation with additional tuning, more complex model architectures, or alternative algorithms might yield better results.
+
+## How to Contribute
+
+Contributors looking to improve the model or suggest changes can submit pull requests or raise issues in this repository. Detailed instructions on setting up the development environment and contributing guidelines should be provided here.
 
 
